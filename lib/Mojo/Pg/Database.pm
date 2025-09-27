@@ -1,7 +1,7 @@
 package Mojo::Pg::Database;
 use Mojo::Base 'Mojo::EventEmitter';
 
-use Carp qw(croak shortmess);
+use Carp    qw(croak shortmess);
 use DBD::Pg qw(:async);
 use Mojo::IOLoop;
 use Mojo::JSON qw(to_json);
